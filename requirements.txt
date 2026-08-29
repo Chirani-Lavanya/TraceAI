@@ -1,0 +1,10 @@
+fastapi
+openai
+pandas
+python-dotenv
+reportlab
+requests
+sqlalchemy
+streamlit
+uvicorn
+xlsxwriter
