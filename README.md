@@ -148,7 +148,6 @@ TraceAI follows a layered architecture connecting the user interface, backend se
 ## Architecture Summary
 TraceAI connects the frontend, backend, AI model, database, and external Jira integration into one end-to-end testing workflow.
 
-👩‍💻 Author
+👩‍💻 Author : Chirani Lavanya
 
-Chirani Lavanya
 Ascentic AI Launch Pad 2026 -- Project Submission
