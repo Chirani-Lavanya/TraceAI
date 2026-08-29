@@ -4,9 +4,12 @@ from __future__ import annotations
 
 import requests
 
+import os
 
-BACKEND_ROOT_URL = "http://127.0.0.1:9022"
-
+BACKEND_ROOT_URL = os.getenv(
+    "BACKEND_ROOT_URL",
+    "http://127.0.0.1:9022"
+)
 
 def fetch_history():
     response = requests.get(f"{BACKEND_ROOT_URL}/history/", timeout=30)

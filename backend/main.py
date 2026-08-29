@@ -29,6 +29,11 @@ load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
 app = FastAPI(title="TraceAI API", version="2.2")
 
 
+@app.get("/health")
+def health_check():
+    return {"status": "ok", "service": "TraceAI API"}
+
+
 @app.on_event("startup")
 def startup_event():
     init_db()
