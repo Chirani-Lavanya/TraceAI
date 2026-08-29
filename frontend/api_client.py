@@ -8,7 +8,7 @@ import os
 
 BACKEND_ROOT_URL = os.getenv(
     "BACKEND_ROOT_URL",
-    "http://127.0.0.1:9022"
+    "https://traceai-production-f7b2.up.railway.app"
 )
 
 def fetch_history():
